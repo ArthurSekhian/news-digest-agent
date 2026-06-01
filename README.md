@@ -67,6 +67,7 @@ The same architecture can be adapted to any topic by replacing the example extra
 - [Quick Start](docs/quick-start.md)
 - [Adding a Source](docs/adding-a-source.md)
 - [Architecture](docs/architecture.md)
+- [Claude Skill](claude-skill/SKILL.md)
   
 ## Project structure
 
