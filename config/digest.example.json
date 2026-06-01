@@ -1,0 +1,16 @@
+{
+  "topic": "My Weekly Digest",
+  "schedule": {
+    "frequency": "weekly",
+    "window_days": 7
+  },
+  "delivery": {
+    "channel": "telegram",
+    "telegram_account": "your_account",
+    "telegram_target": "your_target",
+    "slack_webhook_url": "your_slack_webhook_url"
+  },
+  "extractors": [
+    "extractors/examples/custom_topic_extract.py"
+  ]
+}
