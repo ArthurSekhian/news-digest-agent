@@ -1,18 +1,26 @@
 # Adding a Source
 
-A source is any page, feed, archive, API, or public index you want to monitor.
+To adapt this project, create one extractor per source.
 
 Examples:
 
-- company blog
-- GitHub releases
-- government news page
-- security advisory feed
-- newsletter archive
-- research paper feed
-- competitor updates
+- `competitor_blog_extract.py`
+- `github_releases_extract.py`
+- `security_advisories_extract.py`
+- `grant_opportunities_extract.py`
 
-## 1. Copy the example extractor
+Each extractor should return:
+
+- title
+- url
+- date
+- source
+- category
+- score
+- include
+- reason
+
+Run an extractor like this:
 
 ```bash
-cp extractors/examples/custom_topic_extract.py extractors/examples/my_source_extract.py
+python3 extractors/examples/custom_topic_extract.py 2026-05-25 2026-05-31 --included-only
