@@ -1,0 +1,14 @@
+Weekly News Digest
+
+Period: 2026-05-25 — 2026-05-31
+
+1. Example update title
+Date: 2026-05-25
+Category: Example category
+Score: 7/10
+
+Why it matters:
+example item
+
+URL:
+https://example.com/update
