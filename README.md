@@ -43,3 +43,24 @@ Each extractor returns structured items. The sender script then combines them in
 - [Quick Start](docs/quick-start.md)
 - [Adding a Source](docs/adding-a-source.md)
 - [Architecture](docs/architecture.md)
+  
+## Project structure
+
+```text
+config/
+  digest.example.json
+
+docs/
+  quick-start.md
+  adding-a-source.md
+  architecture.md
+
+examples/
+  sample-digest.txt
+
+extractors/
+  examples/
+    custom_topic_extract.py
+
+sender/
+  send_digest.py
